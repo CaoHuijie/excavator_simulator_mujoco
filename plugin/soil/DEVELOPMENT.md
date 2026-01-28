@@ -242,7 +242,7 @@ bash build.bash
 
 ```cpp
 if (!CheckAttr("new_parameter", m, instance))
-    mju_error("Soil plugin: Invalid ``new_parameter`` specification");
+    mju_error("Soil plugin: Invalid `new_parameter` specification");
 ```
 
 2. **在构造函数中读取参数**:
