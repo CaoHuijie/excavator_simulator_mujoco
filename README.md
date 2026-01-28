@@ -9,6 +9,20 @@ An excavator model is also included that is thoroughly described in the correspo
 
 A customized executable to launch [MuJoCo][MuJoCo] is also provided, as the default executable does not include the update of `HField`.
 
+# Documentation / 文档
+
+For detailed technical documentation, please refer to:
+
+**English / Chinese (中英文双语)**:
+- **[Soil Plugin Development Guide](plugin/soil/DEVELOPMENT.md)** - Comprehensive guide on soil plugin architecture, implementation, and development
+  - 土壤插件开发指南 - 关于土壤插件架构、实现和开发的综合指南
+- **[MuJoCo Development Guide](MUJOCO_DEVELOPMENT.md)** - Details about MuJoCo customization, plugin integration, and advanced topics
+  - MuJoCo 开发指南 - 关于 MuJoCo 定制、插件集成和高级主题的详细信息
+- **[Excavator Model README](model/excavator/README.md)** - Detailed description of the excavator model geometry and kinematics
+  - 挖掘机模型说明 - 挖掘机模型几何和运动学的详细描述
+- **[Soil Plugin Usage](plugin/soil/README.md)** - Quick reference for using the soil plugin
+  - 土壤插件使用 - 使用土壤插件的快速参考
+
 # Installation
 A bash script is provided to make the installation of the simulator easier.
 To install the simulator, simply execute the following command
